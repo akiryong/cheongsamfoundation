@@ -49,7 +49,7 @@
   }
   .navbar-expand-md .navbar-nav .nav-link {
     font-size: 13px;
-    padding: 0px 3px;
+    padding: 0px 10px;
   }
   #about .sec-title h3 {
     font-size: 30px;
@@ -59,7 +59,11 @@
     font-size: 30px;
   }
   .text-wrapper {
-    padding: 60px 30px;
+    text-align: left;
+    padding: 40px 30px;
+  }
+  .text-wrapper h2 {
+    font-size: 26px;
   }
   .why .content h3 {
     font-size: 30px;
