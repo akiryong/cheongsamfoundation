@@ -223,4 +223,7 @@
   .services-item {
     min-height: auto;
   }
+  .footer-link {
+    margin-top: 20px;
+  }
 }
