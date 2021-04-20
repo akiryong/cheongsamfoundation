@@ -144,7 +144,7 @@
                   <span class="services-content-label">사업시기</span>
                   수시
                   <span class="services-content-label">선발방법</span>
-                  추천 및 접수-->내부심사(지원여부, 금액결정)-->선정-->개별안내-->장학금지원
+                  추천 및 접수 &#8594; 내부심사(지원여부, 금액결정) &#8594; 선정 &#8594; 개별안내 &#8594; 장학금지원
                 </p>
               </div>
             </div>
@@ -221,7 +221,7 @@
       <div class="container">
         <div class="section-header text-center">
           <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">오시는 길</h2>
-          <p>서울특별시 영등포구 여의대방로 65길 23, 1011호(여의도동, 포레스텔빌딩)</p>
+          <p>서울특별시 영등포구 여의대방로 65길 23, 1011호<br/>(여의도동, 포레스텔빌딩)</p>
         </div>
         <div class="row">
           <div class="col-lg-12 col-md-12 col-xs-12">
@@ -288,6 +288,7 @@
         };
 
       var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+      map.setZoomable(false);
 
       // 마커가 표시될 위치입니다 
       var markerPosition  = new kakao.maps.LatLng(37.5200985, 126.9265932); 
