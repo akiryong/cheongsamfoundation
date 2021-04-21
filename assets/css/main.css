@@ -555,7 +555,7 @@ hr {
 
 .navbar-expand-md .navbar-nav .nav-link {
   color: #585b60;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   padding: 8px 15px;
   line-height: 40px;
@@ -853,9 +853,9 @@ hr {
 }
 
 /* ==========================================================================
- Counter Section Style
+ Download Section Style
  ========================================================================== */
-#counter {
+#download {
   background: url(../img/count-bg.jpg);
   background-position: center center;
   background-size: cover;
@@ -863,32 +863,32 @@ hr {
   z-index: 1;
 }
 
-#counter .section-title {
+#download .section-title {
   color: #fff;
 }
 
-#counter .counter-text {
+#download .counter-text {
   height: 100%;
   width: 100%;
   display: table;
 }
 
-#counter .counter-text > div {
+#download .counter-text > div {
   vertical-align: middle;
   display: table-cell;
 }
 
-#counter .counter-text h3 {
+#download .counter-text h3 {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-#counter .counter-text .desc-text p {
+#download .counter-text .desc-text p {
   margin-bottom: 15px;
 }
 
-#counter .counter-box {
+#download .counter-box {
   padding: 20px 15px;
   background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
   overflow: hidden;
@@ -898,16 +898,16 @@ hr {
   position: relative;
 }
 
-#counter .counter-box .icon-o {
+#download .counter-box .icon-o {
   color: #fff;
   margin-bottom: 20px;
 }
 
-#counter .counter-box .icon-o i {
+#download .counter-box .icon-o i {
   font-size: 42px;
 }
 
-#counter .counter-box h3 {
+#download .counter-box h3 {
   color: #fff;
   font-size: 30px;
   font-weight: 700;
@@ -919,7 +919,7 @@ hr {
   -o-transition: all 0.4s ease-in-out;
 }
 
-#counter .counter-box h3:before {
+#download .counter-box h3:before {
   position: absolute;
   content: "";
   height: 1px;
@@ -931,7 +931,7 @@ hr {
   background-color: #e5e5e5;
 }
 
-#counter .counter-box p {
+#download .counter-box p {
   color: #fff;
   margin-top: 12px;
   font-size: 14px;
