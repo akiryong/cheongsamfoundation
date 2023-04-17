@@ -1987,3 +1987,18 @@ textarea {
   width: 150px;
   max-width: 100%;
 }
+
+/* aki */
+.list-5years {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.list-5years .list-5years-link {
+  color: #aaa;
+}
+
+.list-5years .list-5years-link:hover {
+  text-decoration: underline;
+}
